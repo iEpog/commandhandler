@@ -6,12 +6,12 @@ Very simple but very useful command handler.
 To install the node-module
 
 ``
-npm install @iEpog/commandhandler
+npm install commandhandler.js
 ``
 
 Code:
 ```js
-let ch = new (require('@iEpog/commandhandler'))();
+let ch = new (require('commandhandler.js'))();
 ```
 
 <h1>Methods</h1>
@@ -42,7 +42,7 @@ let ch = new (require('@iEpog/commandhandler'))();
 ``Main File:``
 
 ```js
-let ch = new (require('@iEpog/commandhandler'))();
+let ch = new (require('commandhandler.js'))();
 
 let Discord= require('discord.js');
 let client = new Discord.Client();
@@ -82,7 +82,7 @@ exports.name= "say";
  ``Main File:``
 
 ~~~ js
-let ch = new (require('@iEpog/commandhandler'))();
+let ch = new (require('commandhandler.js'))();
 
 ch.on('ready',()=>{
 
