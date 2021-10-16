@@ -47,7 +47,7 @@ let ch = new (require('commandhandler.js'))();
 let Discord= require('discord.js');
 let client = new Discord.Client();
 
-let prefix = "!!!!!!!";
+let prefix = "+";
 
 client.on('ready',()=>console.log('Bot Ready'));
 
